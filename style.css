@@ -41,22 +41,32 @@ img {
     background: #ffff00;
 }
 
-.button {
-    display: inline-block;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background: white;
-    vertical-align: middle;
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 2;
 }
 
-.menu {
-    display: inline-block;
-    position: fixed;
-    float: left;
-    right: 0;
-    top: 0;
-    height: 40px;
-    width: 40px;
 
+.menu {
+    float: right;
+}
+
+
+.button {
+    
+    height: 50px;
+    width: 50px;
+    background: white;
+    display: inline-block;
+}
+
+
+h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
