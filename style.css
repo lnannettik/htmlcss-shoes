@@ -1,0 +1,62 @@
+/* GENERAL RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* UTILITIES */
+.blocco {
+    height: 100vh; 
+    margin: auto;
+    position: relative;
+}
+
+clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* BODY */
+
+.blk1 {
+    background: #ff0000;
+}
+
+.blk2 {
+    background: #008000;
+}
+
+.blk3 {
+    background: #ffff00;
+}
+
+.button {
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: white;
+    vertical-align: middle;
+}
+
+.menu {
+    display: inline-block;
+    position: fixed;
+    float: left;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+
+}
